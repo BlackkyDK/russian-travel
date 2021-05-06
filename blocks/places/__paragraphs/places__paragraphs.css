@@ -1,0 +1,10 @@
+.places__paragraphs {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+  .places__paragraphs {
+    padding-left: 16px;
+    padding-right: 16px;
+     }
+}

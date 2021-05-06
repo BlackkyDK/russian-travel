@@ -1,0 +1,19 @@
+.places__paragraph {
+  margin: 32px 16px 0 16px;
+  font-size: 18px;
+  line-height: 1.63;
+}
+.places__paragraph:nth-child(2n) {
+  margin: 25px 16px 0 16px;
+}
+@media screen and (max-width: 768px) {
+.places__paragraph {
+    margin: 0;
+    font-size: 16px;
+}
+.places__paragraph:nth-child(2n) {
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 50px;
+  }
+}

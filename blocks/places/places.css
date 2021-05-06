@@ -1,11 +1,11 @@
-@import url(../places/place/place.css);
-@import url(../places/place/__title/place__title.css);
-@import url(../places/place/__website/place__website.css);
-@import url(../places/place/__link/place__link.css);
-@import url(../places/place/__url-heading/place__url-heading.css);
-@import url(../places/place/__paragraphs/place__paragraphs.css);
-@import url(../places/place/__paragraph/);
-@import url(../places/place/__image/place__image.css);
+@import url(../places/__place/places__place.css);
+@import url(../places/__title/places__title.css);
+@import url(../places/__website/places__website.css);
+@import url(../places/__link/places__link.css);
+@import url(../places/__url-heading/places__url-heading.css);
+@import url(../places/__paragraphs/places__paragraphs.css);
+@import url(../places/__paragraph/places__paragraph.css);
+@import url(../places/__image/places__image.css);
 
 .places {
   max-width: 984px;
@@ -22,17 +22,21 @@
 .places {
     max-width: 768px;
     padding-bottom: 40px;
-    padding-top: 88px;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
    }
 }
 @media screen and (max-width: 320px) {
-.places {
+  .places {
     max-width: 320px;
     padding-bottom: 50px;
-    padding-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: 0 auto;
    }
 }
+
+
+
+
+
+
+

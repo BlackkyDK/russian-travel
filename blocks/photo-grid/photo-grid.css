@@ -15,7 +15,7 @@
   gap: 14px;
   margin-left: 48px;
   margin-right: 48px;
-}
+  }
 }
 @media screen and (max-width: 768px) {
 .photo-grid {
@@ -24,8 +24,7 @@
   gap: 16px;
   margin-left: 24px;
   margin-right: 24px;
-  padding-top: 88px;
-}
+  }
 }
 @media screen and (max-width: 320px) {
 .photo-grid {
@@ -36,5 +35,5 @@
   margin-right: 16px;
   padding-top: 64px;
   padding-bottom: 64px;
-}
+  }
 }
